@@ -63,7 +63,7 @@
         }
 
 
-
+        return nativeEnd
 
       }
     
@@ -71,6 +71,7 @@
  
     
     function noStream() {
+            city = 0;
             console.log('NO STREAM FOUND - ',timeNow.getHours(),':',timeNow.getMinutes())
             let loadImage = document.getElementById('loadImage');
             let wrapper = document.getElementById('wrapper');
@@ -80,7 +81,7 @@
             wrapper.style.display = ''
             // canvasGradient.style.display = 'none';
             initialise = true;
-            setTimeout(currentCheck, 60000);
+
 
             
          }
@@ -93,9 +94,7 @@
         let start = stream.sunstart;
         let now = timeNow.getUTCHours() * 60 + timeNow.getUTCMinutes();
         let end =  stream.sunset
-        //console.log('start',start)
-        //console.log('now',now)
-        //console.log('end',end)
+
       
       
         if(end < start && now < start){
@@ -135,27 +134,32 @@
 
 
       
-      function currentCheck(){
+      function currentCheck(city){
         
         timeNow = new Date();
-    
+        
       
       
         if (city != 0){
           console.log('CHECKING CURRENT CITY')
           if ((timeCheck(city)) == true){
               console.log('STILL VALID')
+              return city
           }
           else {
               console.log(city,'NOT VALID')
               city = 0;
-              findClosest();
+              city = findClosest();
+              return city
           }
         }
         ////FULL CHECK ///////
         else {
           console.log('NO CURRENT CITY')
-          findClosest();
+//          findClosest();
+          city = findClosest();
+          return city
+
         }
       
       
@@ -187,6 +191,7 @@
           if (checkDiff <= startDiff) {
 
             startDiff = checkDiff;
+            console.log(stream.name, '=====', startDiff)
             cityTBA = stream;
             }
 
@@ -206,6 +211,7 @@
           if (checkDiff <= startDiff) {
 
             startDiff = checkDiff;
+            console.log(stream.name, '=====', startDiff)
             cityTBA = stream;
             }
 
@@ -222,8 +228,9 @@
 
       if (checkDiff <= startDiff) {
         
-        console.log(stream.name, '=====', startDiff)
+        
         startDiff = checkDiff;
+        console.log(stream.name, '=====', startDiff)
         cityTBA = stream;
         }
 
@@ -238,19 +245,21 @@
             stream.timeDiff = checkDiff;
 
             if (checkDiff <= startDiff) {
-                console.log(stream.name, '=====', startDiff)
+                
                 startDiff = checkDiff;
+                console.log(stream.name, '=====', startDiff)
                 cityTBA = stream;
                 }
         }
     }
 
 
-    else {
-      city = 0;
-      //city = cities.auckland;
 
-     }
+    // else {
+    //   cityTBA = 1441;
+    //   //city = cities.auckland;
+
+    //  }
  }
   
 
@@ -278,15 +287,23 @@ let cityTBA
       let stream = cities[key]
       timeDiff(stream)
     }
-    city = cityTBA;
-    if (city == 0) {
-        noStream()
+    if (cityTBA !== 0) {
+         city = cityTBA;
     }
     else {
-        console.log('LEAVE TIME CHECK')
-        console.log('DISTANCE = ', startDiff)
-        getStream();
-    }
+        city = 0;
+   }
+
+    // else{
+    //     city = 0;
+    // }
+        
+  
+ 
+  //      getStream(city);
+
+
+    return city
     }
     
     

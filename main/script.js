@@ -48,7 +48,9 @@
 
 let canvasGradient = document.getElementById('canvasGradient');
 
-canvasGradient.width  = window.innerWidth;
+// canvasGradient.width  = window.innerWidth;
+// canvasGradient.height = window.innerHeight;
+canvasGradient.width  = window.outerWidth;
 canvasGradient.height = window.innerHeight;
 
 
@@ -427,6 +429,7 @@ if (city != 0) {
     setTimeout(function() { sunsets(city); }, 12000);
 }
 else {
+    canvasGradient.style.display = 'none';
     noStream();
     setTimeout(function() { sunsets(city); }, 45000);
 }

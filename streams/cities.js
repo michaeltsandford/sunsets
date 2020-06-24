@@ -45,7 +45,7 @@ let cities = {
     ,// GMT+02:00
     metallostroy : {name: 'Metallostroy', url:"http://94.72.9.182:80/mjpg/video.mjpg", lat: 59.80, lon: 30.55, sunstart: 0, sunset: 10, buffer: -20, period: 100, topX: 250, topY: 0, topW: 30, topH: 30, botX: 500, botY: 140, botW: 20, botH: 20, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 240, conBot : 1.2, hueBot : -20, brBot : 1}
     ,// GMT+02:00
-    auckland : {name: 'Auckland', url:"http://103.37.205.23:8000/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER", lat: -36.87, lon: 174.77, sunstart: 0, sunset: 10, buffer: 30, period: 60, topX: 300, topY: 10, topW: 30, topH: 30, botX: 30, botY: 202, botW: 20, botH: 20, satTop : 300, conTop : 1, hueTop : 0, brTop : 1, satBot : 300, conBot : 1.3, hueBot : -20, brBot : 1}
+    auckland : {name: 'Auckland', url:"http://103.37.205.23:8000/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER", lat: -36.87, lon: 174.77, sunstart: 0, sunset: 10, buffer: 50, period: 60, topX: 300, topY: 10, topW: 30, topH: 30, botX: 30, botY: 202, botW: 20, botH: 20, satTop : 300, conTop : 1, hueTop : 0, brTop : 1, satBot : 300, conBot : 1.3, hueBot : -20, brBot : 1}
     ,// GMT+13 // XY DONE
     kona : {name: 'Kona', url:"http://24.43.239.50:80/mjpg/video.mjpg", lat: 19.64, lon: 155.99, sunstart: 0, sunset: 10, buffer: -20, period: 100, topX: 250, topY: 0, topW: 30, topH: 30, botX: 500, botY: 140, botW: 20, botH: 20, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 240, conBot : 1.2, hueBot : -20, brBot : 1}
     ,// GMT-10:00

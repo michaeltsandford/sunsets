@@ -75,11 +75,11 @@
             console.log('NO STREAM FOUND - ',timeNow.getHours(),':',timeNow.getMinutes())
             let loadImage = document.getElementById('loadImage');
             let wrapper = document.getElementById('wrapper');
-            let canvasGradient = document.getElementById('canvasI');
+            let canvasGradient = document.getElementById('canvasGradient');
             document.getElementById('loadImage').src = "/images/joon.gif";
             loadImage.style.display = ''
             wrapper.style.display = ''
-            // canvasGradient.style.display = 'none';
+            canvasGradient.style.display = 'none';
             initialise = true;
 
 

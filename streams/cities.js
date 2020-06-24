@@ -7,7 +7,7 @@ let cities = {
     ,
     yilan : {name: 'Yilan', url:"http://140.111.180.116:90/GetImage.cgi?CH=0?", lat: 24.70, lon: 121.74, sunstart: 0, sunset: 10, buffer: -20, period: 100, topX: 600, topY: 0, topW: 30, topH: 30, botX: 445, botY: 140, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 180, conBot : 1, hueBot : 0, brBot : 1.1}
     ,
-    bangkok : {name: 'Bangkok', url:"http://61.91.61.114:8080/cgi-bin/camera?resolution=640&amp;quality=1&amp", lat: 13.76, lon: 100.50, sunstart: 0, sunset: 10, buffer: 40, period: 60, topX: 610, topY: 0, topW: 30, topH: 30, botX: 610, botY: 80, botW: 30, botH: 30, satTop : 210, conTop : 1.2, hueTop : 0, brTop : 1, satBot : 250, conBot : 1.2, hueBot : 0, brBot : 1}
+    bangkok : {name: 'Bangkok', url:"http://61.91.61.114:8080/cgi-bin/camera?resolution=640&amp;quality=1&amp", lat: 13.76, lon: 100.50, sunstart: 0, sunset: 10, buffer: 30, period: 100, topX: 610, topY: 0, topW: 30, topH: 30, botX: 610, botY: 80, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 180, conBot : 1, hueBot : 0, brBot : 1.1}
     ,
     moscow : {name: 'Moscow', url:"http://46.38.98.114:90/mjpg/video.mjpg", lat: 55.76, lon: 37.62, sunstart: 0, sunset: 10, buffer: -20, period: 100,  topX: 250, topY: 0, topW: 30, topH: 30, botX: 500, botY: 140, botW: 20, botH: 20, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 240, conBot : 1.2, hueBot : -20, brBot : 1}
     ,

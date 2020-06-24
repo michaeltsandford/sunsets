@@ -51,6 +51,7 @@ let canvasGradient = document.getElementById('canvasGradient');
 canvasGradient.width  = window.innerWidth;
 canvasGradient.height = window.innerHeight;
 
+
 $(function(){
 	resizeCanvas();
 });
@@ -65,6 +66,18 @@ function resizeCanvas()
     gradientCanvas.css("width", $(window).width());
     gradientCanvas.css("height", $(window).height());
 }
+
+
+
+// function fitToContainer(canvas){
+//     canvas.style.width='100%';
+//     canvas.style.height='100%';
+//     canvas.width  = canvas.offsetWidth;
+//     canvas.height = canvas.offsetHeight;
+//   }
+
+// fitToContainer(canvasGradient)
+
 
 
 

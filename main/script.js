@@ -48,7 +48,7 @@
 
 let canvasGradient = document.getElementById('canvasGradient');
 
-canvasGradient.width  = window.outerWidth;
+canvasGradient.width  = window.innerWidth;
 canvasGradient.height = window.innerHeight;
 
 

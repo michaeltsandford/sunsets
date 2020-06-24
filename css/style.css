@@ -1,0 +1,82 @@
+/* body {
+  background-color: black;
+} */
+
+#canvasTop {
+    display: none;
+  }
+#canvasBot{
+    display: none;
+  }
+  
+* { margin: 0; padding: 0;}
+
+body, html { height:100%; }
+
+#canvasI {
+    display:none;
+    /* position:absolute;
+    width:100%;
+    height:100%; */
+}
+
+#canvasI:fullscreen {
+  position: fixed;
+  object-fit: fill;
+	width: 100%;
+	top: 0;
+	background: none;
+}
+:-webkit-full-screen {
+  position: fixed;
+  object-fit: fill;
+	width: 100%;
+	top: 0;
+	background: none;
+}
+
+:-moz-full-screen {
+  position: fixed;
+  object-fit: fill;
+	width: 100%;
+	top: 0;
+	background: none;
+}
+
+:-ms-fullscreen {
+  position: fixed;
+  object-fit: fill;
+	width: 100%;
+	top: 0;
+	background: none;
+}
+
+:fullscreen {
+  position: fixed;
+  object-fit: fill;
+	width: 100%;
+	top: 0;
+	background: none;
+}
+
+
+
+
+html, body, #wrapper {
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+ }
+
+ #wrapper td {
+    vertical-align: center;
+    text-align: center;
+ }
+
+/* #loadImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */

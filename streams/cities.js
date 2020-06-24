@@ -72,7 +72,7 @@ let cities = {
     dortmund : {name: 'Dortmund', url:"http://87.139.9.247:80/mjpg/video.mjpg", lat: 51.51, lon: 7.47, sunstart: 0, sunset: 10, buffer: -20, period: 100, topX: 0, topY: 35, topW: 30, topH: 30, botX: 100, botY: 280, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 210, conBot : 1.2, hueBot : 0, brBot : 1},// GMT+1
    //CAM SET
 
-    tallinn : {name: 'Tallinn', url:"http://37.157.69.234:8000/-wvhttp-01-/GetOneShot?image_size=640x480&", lat: 59.44, lon: 24.75, sunstart: 0, sunset: 10, buffer: -180, period: 100, topX: 730, topY: 1, topW: 30, topH: 30, botX: 550, botY: 190, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 240, conBot : 1.2, hueBot : -10, brBot : 0.9},
+    tallinn : {name: 'Tallinn', url:"http://37.157.69.234:8000/-wvhttp-01-/GetOneShot?image_size=640x480&", lat: 59.44, lon: 24.75, sunstart: 0, sunset: 10, buffer: -180, period: 350, topX: 730, topY: 1, topW: 30, topH: 30, botX: 550, botY: 190, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 240, conBot : 1.2, hueBot : -10, brBot : 0.9},
     
     //CAM SET // GMT+2
     sierre : {name: 'Sierre', url:"http://213.221.142.195:8888/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER", lat: 46.29, lon: 7.54, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 350, topY: 1, topW: 30, topH: 30, botX: 450, botY: 150, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 260, conBot : 1.3, hueBot : -10, brBot : 0.9},

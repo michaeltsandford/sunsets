@@ -192,13 +192,7 @@ function getStream(city){
         var canvasTop = document.getElementById("canvasTop")
         var canvasBot = document.getElementById("canvasBot")
 
-        // canvas.width  = img.width;
-        // canvas.height = img.height;
-        //canvas.width  = 500;
-        //canvas.height = 300;
 
-        //w = (img.width + 0);
-        //h = (img.height + 0);
 
         var ctxT = canvasTop.getContext("2d");
         var ctxB = canvasBot.getContext("2d");
@@ -438,3 +432,4 @@ else {
 
 
 }
+

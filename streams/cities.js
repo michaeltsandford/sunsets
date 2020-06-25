@@ -75,8 +75,50 @@ let cities = {
     tallinn : {name: 'Tallinn', url:"http://37.157.69.234:8000/-wvhttp-01-/GetOneShot?image_size=640x480&", lat: 59.44, lon: 24.75, sunstart: 0, sunset: 10, buffer: -180, period: 350, topX: 730, topY: 1, topW: 30, topH: 30, botX: 550, botY: 190, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 240, conBot : 1.2, hueBot : -10, brBot : 0.9},
     
     //CAM SET // GMT+2
+  
     sierre : {name: 'Sierre', url:"http://213.221.142.195:8888/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER", lat: 46.29, lon: 7.54, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 350, topY: 1, topW: 30, topH: 30, botX: 450, botY: 150, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 260, conBot : 1.3, hueBot : -10, brBot : 0.9},
     //CAM SET // GMT+1
-    kristiansund : {name: 'Kristiansund', url:"http://85.93.226.222:8082/mjpg/video.mjpg", lat: 63.11, lon: 7.72, sunstart: 0, sunset: 10,  buffer: -30,  period: 180, topX: 250, topY: 0, topW: 30, topH: 30, botX: 500, botY: 140, botW: 20, botH: 20, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 240, conBot : 1.2, hueBot : -20, brBot : 1},
+  
+    kristiansund : {name: 'Kristiansund', url:"http://85.93.226.222:8082/mjpg/video.mjpg", lat: 63.11, lon: 7.72, sunstart: 0, sunset: 10,  buffer: 0,  period: 180, topX: 250, topY: 0, topW: 30, topH: 30, botX: 500, botY: 140, botW: 20, botH: 20, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 240, conBot : 1.2, hueBot : -20, brBot : 1},
     // XY DONE
-    };
+   
+    kamen : {name: 'Kamen Na Obi', url:"http://109.248.235.90:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&", lat: 53.79, lon: 81.34, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 80, topY: 2, topW: 30, topH: 30, botX: 800, botY: 150, botW: 30, botH: 30, satTop : 160, conTop : 1.2, hueTop : 0, brTop : 1, satBot : 260, conBot : 1.4, hueBot : -10, brBot : 0.9},
+   //GMT +6
+  
+   udine: {name: 'Udine', url:"http://188.12.60.168:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER", lat: 46.06, lon: 13.24, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 250, topY: 2, topW: 30, topH: 30, botX: 130, botY: 220, botW: 30, botH: 30, satTop : 160, conTop : 1.2, hueTop : 0, brTop : 1, satBot : 260, conBot : 1.3, hueBot : -20, brBot : 0.9},
+   //GMT +1
+   
+   meguro : {name: 'Meguro Ku', url:"http://115.179.100.76:8080/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp", lat: 35.63, lon: 139.68, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 160, topY: 2, topW: 30, topH: 30, botX: 490, botY: 50, botW: 30, botH: 30, satTop : 160, conTop : 1.2, hueTop : 0, brTop : 1, satBot : 260, conBot : 1.3, hueBot : 0, brBot : 0.9},
+   //GMT +9
+   
+   liyama : {name: 'Liyama', url:"http://220.254.144.230:50000/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&", lat: 36.85, lon: 138.37, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 605, topY: 2, topW: 30, topH: 30, botX: 300, botY: 160, botW: 30, botH: 30, satTop : 160, conTop : 1.3, hueTop : 0, brTop : 0.95, satBot : 260, conBot : 1.3, hueBot : 0, brBot : 0.9},
+   //GMT +9 
+   
+   amands : {name: 'Sint Amands', url:"http://188.210.92.19:80/oneshotimage1?", lat: 51.06, lon: 4.21, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 50, topY: 2, topW: 30, topH: 30, botX: 400, botY: 190, botW: 30, botH: 30, satTop : 160, conTop : 1.3, hueTop : 0, brTop : 0.95, satBot : 260, conBot : 1.3, hueBot : 0, brBot : 0.9},
+   //GMT +1
+  
+   barcelona : {name: 'Barcelona', url:"http://81.47.179.157:8081/mjpg/video.mjpg", lat: 41.39, lon: 2.16, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 2, topY: 2, topW: 30, topH: 30, botX: 400, botY: 330, botW: 30, botH: 30, satTop : 160, conTop : 1.1, hueTop : 0, brTop : 1, satBot : 260, conBot : 1.3, hueBot : 0, brBot : 0.9},
+   //GMT +1
+
+   derby : {name: 'Derby', url:"http://95.177.20.83:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER", lat: 52.92, lon: -1.48, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 600, topY: 20, topW: 30, topH: 30, botX: 430, botY: 110, botW: 30, botH: 30, satTop : 160, conTop : 1.1, hueTop : 0, brTop : 1, satBot : 280, conBot : 1.3, hueBot : 0, brBot : 0.9},
+   //GMT +0
+
+   sochi : {name: 'Sochi', url:"http://158.58.130.149:80/mjpg/video.mjpg", lat: 43.60, lon: 39.73, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 210, topY: 0, topW: 10, topH: 10, botX: 450, botY: 25, botW: 10, botH: 10, satTop : 160, conTop : 1.2, hueTop : 0, brTop : 1, satBot : 230, conBot : 1.2, hueBot : 0, brBot : 1},
+   //GMT +3
+
+   akersberga : {name: 'Akersberga', url:"http://193.234.156.26:8081/mjpg/video.mjpg", lat: 59.48, lon: 18.30, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 510, topY: 1, topW: 30, topH: 10, botX: 300, botY: 290, botW: 30, botH: 30, satTop : 160, conTop : 1.2, hueTop : 0, brTop : 1, satBot : 270, conBot : 1.3, hueBot : -10, brBot : 0.95},
+   //GMT +1
+
+   saoPaulo : {name: 'Sao Paulo', url:"http://191.241.235.43/mjpg/video.mjpg", lat: -23.55, lon: -46.64, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 510, topY: 1, topW: 30, topH: 30, botX: 530, botY: 138, botW: 30, botH: 30, satTop : 160, conTop : 1.2, hueTop : 0, brTop : 1, satBot : 240, conBot : 1.3, hueBot : 0, brBot : 1},
+   //GMT -3
+
+   garath: {name: 'Garath', url:"http://87.138.157.245/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER", lat: 51.14, lon: 6.91, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 170, topY: 1, topW: 30, topH: 30, botX: 300, botY: 140, botW: 30, botH: 30, satTop : 160, conTop : 1.2, hueTop : 0, brTop : 1, satBot : 240, conBot : 1.3, hueBot : 0, brBot : 1},
+   //GMT +1
+
+   seattle: {name: 'Seattle', url:"http://209.206.162.229:80/mjpg/video.mjpg", lat: 47.61, lon: -122.33, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 140, topY: 4, topW: 20, topH: 20, botX: 145, botY: 40, botW: 10, botH: 10, satTop : 160, conTop : 1.2, hueTop : 0, brTop : 1, satBot : 270, conBot : 1.4, hueBot : 0, brBot : 0.9},
+   //GMT -8
+
+   yuzhnouralSk : {name: 'YuzhnouralSk', url:"http://91.209.234.195:80/mjpg/video.mjpg", lat: 54.44, lon: 61.25, sunstart: 0, sunset: 10, buffer: 0, period: 100, topX: 350, topY: 1, topW: 20, topH: 20, botX: 900, botY: 100, botW: 30, botH: 30, satTop : 160, conTop : 1.2, hueTop : 0, brTop : 1, satBot : 270, conBot : 1.4, hueBot : -20, brBot : 0.9}
+   //GMT +5
+
+};

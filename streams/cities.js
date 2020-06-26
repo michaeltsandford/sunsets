@@ -10,7 +10,7 @@ let cities = {
     yilan : {name: 'Yilan', url:"http://140.111.180.116:90/GetImage.cgi?CH=0?", lat: 24.70, lon: 121.74, sunstart: 0, sunset: 10, buffer: -20, period: 100, topX: 600, topY: 0, topW: 30, topH: 30, botX: 445, botY: 140, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 180, conBot : 1, hueBot : 0, brBot : 1.1},
    //cam set
 
-    bangkok : {name: 'Bangkok', url:"http://61.91.61.114:8080/cgi-bin/camera?resolution=640&amp;quality=1&amp", lat: 13.76, lon: 100.50, sunstart: 0, sunset: 10, buffer: 30, period: 100, topX: 610, topY: 0, topW: 30, topH: 30, botX: 610, botY: 80, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 180, conBot : 1, hueBot : 0, brBot : 1.1},
+    bangkok : {name: 'Bangkok', url:"http://61.91.61.114:8080/cgi-bin/camera?resolution=640&amp;quality=1&amp", lat: 13.76, lon: 100.50, sunstart: 0, sunset: 10, buffer: 50, period: 100, topX: 610, topY: 0, topW: 30, topH: 30, botX: 610, botY: 80, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 180, conBot : 1, hueBot : 0, brBot : 1.1},
    //cam set
 
     moscow : {name: 'Moscow', url:"http://46.38.98.114:90/mjpg/video.mjpg", lat: 55.76, lon: 37.62, sunstart: 0, sunset: 10, buffer: -20, period: 100,  topX: 760, topY: 0, topW: 30, topH: 30, botX: 710, botY: 375, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 240, conBot : 1.2, hueBot : -5, brBot : 1},
@@ -72,7 +72,7 @@ let cities = {
     dortmund : {name: 'Dortmund', url:"http://87.139.9.247:80/mjpg/video.mjpg", lat: 51.51, lon: 7.47, sunstart: 0, sunset: 10, buffer: -20, period: 100, topX: 0, topY: 35, topW: 30, topH: 30, botX: 100, botY: 280, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 210, conBot : 1.2, hueBot : 0, brBot : 1},// GMT+1
    //CAM SET
 
-    tallinn : {name: 'Tallinn', url:"http://37.157.69.234:8000/-wvhttp-01-/GetOneShot?image_size=640x480&", lat: 59.44, lon: 24.75, sunstart: 0, sunset: 10, buffer: -180, period: 350, topX: 730, topY: 1, topW: 30, topH: 30, botX: 550, botY: 190, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 240, conBot : 1.2, hueBot : -10, brBot : 0.9},
+    tallinn : {name: 'Tallinn', url:"http://37.157.69.234:8000/-wvhttp-01-/GetOneShot?image_size=640x480&", lat: 59.44, lon: 24.75, sunstart: 0, sunset: 10, buffer: -110, period: 280, topX: 730, topY: 1, topW: 30, topH: 30, botX: 550, botY: 190, botW: 30, botH: 30, satTop : 160, conTop : 1, hueTop : 0, brTop : 1.1, satBot : 240, conBot : 1.2, hueBot : -10, brBot : 0.9},
     
     //CAM SET // GMT+2
   
